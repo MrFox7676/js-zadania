@@ -1,0 +1,1 @@
+document.write("Szkielet zaliczceniowy JavaScript Paweł Mysłakowski 3F".fontcolor("blue").fontsize(6)+"<u>");
