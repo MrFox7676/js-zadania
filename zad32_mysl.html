@@ -1,0 +1,27 @@
+<html>
+<head>
+<script type="text/javascript">
+function autobus(marka_n,model_n,kierowca_n)
+{
+this.marka=marka_n;
+this.model=model_n;
+this.kierowca=kierowca_n;
+}
+autobus.prototype.wypisz = function () 
+{
+alert(this.marka + ' ' + this.model+ ' ' + this.kierowca);
+};
+var autobus1 = new autobus("MAN", "Lons City 12", "Nath");
+var autobus2 = new autobus('Solaris', 'Urbino 12 electric', 'Nath');
+autobus1.wypisz();
+autobus2.wypisz();
+document.write("autobusy wybrane z dobrego gustu"+"<br>");
+
+document.write("pierwszy autobus"+" "+autobus1.marka+" "+autobus1.model+" "+atobus1.kirowca);
+</script>
+</head>
+<body>
+<br>
+Tokyo drift autbusem
+</body>
+</html>
