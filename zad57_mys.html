@@ -5,7 +5,7 @@
   <title></title>
 </head>
 <body>
-  <input id="btn" type="button" value="nacisnij dla poczatku" onclick="findPrimes()">
+  <input id="btn" type="button" value="nacisnij do początku" onclick="findPrimes()">
   <div id="aa"></div>
   <script>
     const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
@@ -17,7 +17,7 @@
           await wait(300);
           field.innerHTML += buffer;
           buffer = '';
-          alert('nacisnij zeby kontynuowac');
+          alert('nacisnij aby kontynuowac');
         }
         const W = i ** 2 + i + 41;
         buffer += "i=" + i + " w(" + i + ")=" + W + "<br><hr>";
